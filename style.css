@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 136, 255);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+header .actions a {
+    display: block;
+    border: 0;
+    font-size: 14px;
+    width: 150px;
+    height: 36px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: all 0.2s ease;    
+}
+
+header .actions a:hover {
+    background-color: rgb(20, 124, 215);
+}
+
+main {
+    margin-top: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 18px;
+}
+
+main .hero {
+    width: 100%;
+}
+
+main .hero h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+main .hero p {
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+}
+
+.form-group {    
+    width: 100%;
+    display: flex;    
+    align-items: center;
+    height: 62px;
+    background-color: rgb(238, 235, 235);
+    padding: 0 18px;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+.form-group-content {
+    display: flex;    
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-group-content label {
+    font-size: 12px;
+    color: black;
+}
+
+.form-group-content input {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    width: 500px;
+    height: 20px;
+}
+
+.form-group-content input:focus-visible {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.form-group-content input:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.form-group button {
+    width: 100px;
+    height: 38px;
+    border: 0;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.2s ease;    
+}
+
+.form-group button:hover {
+    background-color: rgb(20, 124, 215);
+}
+
+table {
+    width: 100%;       
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+table thead {
+    background-color: black;
+    height: 36px;
+    color: white;
+    text-align: left;        
+}
+
+table thead th {
+    padding-left: 12px;
+}
+
+table tbody tr td {    
+    padding-left: 12px;
+    height: 38px;
+}
+
+table tbody tr > td:last-child {    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 12px;
+    padding-right: 12px;
+}
+
+table tbody tr > td a {
+    color: rgb(0, 136, 255);
+}
+
+table tbody tr > td a:last-child {
+    color: red;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: rgb(234, 232, 232);
+}

@@ -1,0 +1,13 @@
+Sistema de gerenciamento de contacto
+
+Funcionalidades
+
+- O usuario deve poder registrar seus contactos
+- Os contactos devem ser salvos no seguinte formato:
+    - Nome, Numero, Operadora
+- Nao deve ser possivel salvar um contacto ja associado
+a uma operadora com o mesmo nome ou mesmo Numero
+- O usuario deve poder atualizar os dados do contacto
+- O usuario deve poder deletar um contacto
+- O usuario deve poder pesquisar por um contacto pelo
+nome ou numero ou operadora
